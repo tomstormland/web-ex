@@ -1,0 +1,82 @@
+.language-switcher {
+  max-width: 300px;
+  box-shadow: 1px 1px 4px rgba(51, 51, 51, 0.7); }
+  .language-switcher ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+  .language-switcher li {
+    display: block;
+    height: 40px;
+    padding: 5px 10px;
+    padding-left: 15px;
+    background-color: #fafafa; }
+    .language-switcher li:after {
+      content: "";
+      display: block;
+      clear: both; }
+  .language-switcher li:not(:last-child) {
+    border-bottom: 1px solid rgba(221, 221, 221, 0.8); }
+  .language-switcher li:hover {
+    background-color: #F3906A; }
+    .language-switcher li:hover span {
+      color: white; }
+    .language-switcher li:hover .check {
+      border-color: #ddd; }
+  .language-switcher li.active {
+    background-color: #F0706A; }
+    .language-switcher li.active a {
+      cursor: default; }
+  .language-switcher a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%; }
+  .language-switcher li.active span {
+    color: white;
+    font-weight: 600; }
+  .language-switcher span {
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 10px;
+    letter-spacing: 3px;
+    font-weight: 500; }
+  .language-switcher .check {
+    border: 2px solid #666;
+    display: inline-block;
+    width: 25px;
+    border-radius: 25px;
+    height: 25px;
+    vertical-align: middle;
+    float: right;
+    margin-top: 5px;
+    margin-left: 2px; }
+  .language-switcher li.active .check {
+    border-color: #eee;
+    position: relative; }
+  .language-switcher li.active .check::after {
+    content: "";
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: white; }
+  .language-switcher .flag {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px; }
+  .language-switcher .flag-us {
+    background-image: url("/img/flag-us.svg"); }
+  .language-switcher .flag-et {
+    background-image: url("/img/flag-et.svg"); }
+  .language-switcher .flag-uk {
+    background-image: url("/img/flag-uk.svg"); }
+  .language-switcher .flag-ru {
+    background-image: url("/img/flag-ru.svg"); }

@@ -1,0 +1,104 @@
+.language-switcher {
+  max-width: 300px;
+  box-shadow: 1px 1px 4px rgba(#333, 0.7);
+  //border: 1px solid #eee;
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    display: block;
+    height: 40px;
+    padding: 5px 10px;
+    padding-left: 15px;
+    background-color: rgb(250, 250, 250);
+    &:after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+  }
+  li:not(:last-child) {
+    border-bottom: 1px solid rgba(#ddd, 0.8);
+  }
+  li:hover {
+    background-color: #F3906A;
+    span {
+      color: white;
+    }
+    .check {
+      border-color: #ddd;
+    }
+  }
+  li.active {
+    background-color: #F0706A;
+    a {
+      cursor: default;
+    }
+  }
+  a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+  li.active span {
+    color: white;
+    font-weight: 600;
+  }
+  span {
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 10px;
+    letter-spacing: 3px;
+    font-weight: 500;
+  }
+  .check {
+    border: 2px solid #666;
+    display: inline-block;
+    width: 25px;
+    border-radius: 25px;
+    height: 25px;
+    vertical-align: middle;
+    float: right;
+    margin-top: 5px;
+    margin-left: 2px;
+  }
+  li.active .check {
+    border-color: #eee;
+    position: relative;
+  }
+  li.active .check::after {
+    content: "";
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: white;
+  }
+  .flag {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+  .flag-us {
+    background-image: url('/img/flag-us.svg');
+  }
+  .flag-et {
+    background-image: url('/img/flag-et.svg');
+  }
+  .flag-uk {
+    background-image: url('/img/flag-uk.svg');
+  }
+  .flag-ru {
+    background-image: url('/img/flag-ru.svg');
+  }
+}
