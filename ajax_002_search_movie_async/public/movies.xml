@@ -1,0 +1,54 @@
+<movies>
+  <movie>
+    <name>Kick-Ass</name>
+    <year>2010</year>
+  </movie>
+  <movie>
+    <name>The Lord of the Rings: The Fellowship of the Ring</name>
+    <year>2001</year>
+  </movie>
+  <movie>
+    <name>The Lord of the Rings: The Two Towers</name>
+    <year>2002</year>
+  </movie>
+  <movie>
+    <name>The Lord of the Rings: The Return of the King</name>
+    <year>2003</year>
+  </movie>
+  <movie>
+    <name>Pirates of the Caribbean: The Curse of the Black Pearl</name>
+    <year>2003</year>
+  </movie>
+  <movie>
+    <name>Pirates of the Caribbean: Dead Man's Chest</name>
+    <year>2006</year>
+  </movie>
+  <movie>
+    <name>Pirates of the Caribbean: At World's End</name>
+    <year>2007</year>
+  </movie>
+  <movie>
+    <name>Pirates of the Caribbean: On Stranger Tides</name>
+    <year>2011</year>
+  </movie>
+  <movie>
+    <name>Pirates of the Caribbean: Dead Men Tell No Tales</name>
+    <year>2017</year>
+  </movie>
+  <movie>
+    <name>Shrek</name>
+    <year>2001</year>
+  </movie>
+  <movie>
+    <name>Shrek 2</name>
+    <year>2004</year>
+  </movie>
+  <movie>
+    <name>Shrek the Third</name>
+    <year>2007</year>
+  </movie>
+  <movie>
+    <name>Shrek Forever After</name>
+    <year>2010</year>
+  </movie>
+</movies>
