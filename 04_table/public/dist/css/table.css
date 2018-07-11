@@ -1,0 +1,17 @@
+.table {
+  border-collapse: collapse; }
+  .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    background-color: #4CAF50;
+    text-align: left;
+    color: #eee;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  .table td {
+    border: 1px solid #ddd;
+    padding: 8px; }
+  .table tr:nth-child(even) {
+    background-color: #fafafa; }
+  .table tr:hover {
+    background-color: #eee; }
