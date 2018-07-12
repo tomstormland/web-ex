@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+.side-menu-white {
+  --duration: 0.5s;
+  --easing: ease-in-out;
+  --width: 220px;
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+  position: relative;
+  background-color: white;
+  width: var(--width);
+  margin: 20px;
+  color: #333; }
+  .side-menu-white .head {
+    font-weight: 600;
+    display: block;
+    background: rgba(159, 206, 223, 0.5);
+    transform-origin: 0 0;
+    transition: transform var(--duration) var(--easin), color var(--duration) var(--easing);
+    transition-delay: var(--delay-out);
+    border-radius: 4px;
+    padding: 1em 1.52em; }
+    .side-menu-white .head .close {
+      box-sizing: border-box;
+      border: none;
+      background: transparent;
+      font-size: 17px;
+      padding: 0;
+      cursor: pointer;
+      line-height: 1;
+      float: right; }
+  .side-menu-white ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  .side-menu-white li {
+    margin: -4px 0 0 0; }
+  .side-menu-white a {
+    display: block;
+    text-decoration: none;
+    background: #ecf5f9;
+    transform-origin: 0 0;
+    transition: transform var(--duration) var(--easing), color var --duration var(--easing);
+    transition-delay: var(--delay-out);
+    border-radius: 4px;
+    padding: 1em 1.52em; }
+    .side-menu-white a:hover {
+      background: linear-gradient(to right, #9fcedf, 2px, #fff 2px); }
+  .side-menu-white .sub-menu a {
+    font-size: 0.9em;
+    color: #666;
+    border-left: 2em solid white;
+    paddin: 0.75em;
+    background: linear-gradient(to right, #d8ebf2, #ecf5f9); }
+    .side-menu-white .sub-menu a:hover {
+      background: linear-gradient(to right, #9fcedf, 2px, #fff 2px); }
