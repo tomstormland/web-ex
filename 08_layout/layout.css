@@ -1,0 +1,38 @@
+.layout {
+  border: 1px dashed #000; }
+  .layout .head {
+    border-bottom: 1px dashed #000;
+    height: 300px; }
+  .layout .wrap {
+    margin: 10px; }
+  .layout .row {
+    display: flex; }
+  .layout .main {
+    border: 1px dashed #000;
+    height: 200px;
+    flex: 2;
+    margin-right: 10px; }
+  .layout .side {
+    border: 1px dashed #000;
+    height: 200px;
+    flex: 1; }
+  .layout .content {
+    border: 1px dashed #000;
+    height: 300px;
+    flex: 1; }
+  .layout .line {
+    border: 1px dashed #000;
+    height: 40px;
+    flex: 1; }
+  .layout .action {
+    flex: 1;
+    border: 1px dashed #000;
+    height: 200px; }
+  .layout .action:not(:last-child) {
+    margin-right: 10px; }
+  .layout .footer {
+    flex: 1;
+    border: 1px dashed #000;
+    height: 200px; }
+  .layout .row:not(:last-child) {
+    margin-bottom: 10px; }

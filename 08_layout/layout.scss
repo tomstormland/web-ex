@@ -1,0 +1,62 @@
+.layout {
+  border: 1px dashed #000;
+
+  .head {
+    border-bottom: 1px dashed #000;
+    height: 300px;
+  }
+
+  .wrap {
+    margin: 10px;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .main {
+    border: 1px dashed #000;
+    height: 200px;
+    flex: 2;
+    margin-right: 10px;
+  }
+
+  .side {
+    border: 1px dashed #000;
+    height: 200px;
+    flex: 1;
+  }
+
+  .content {
+    border: 1px dashed #000;
+    height: 300px;
+    flex: 1;
+  }
+
+  .line {
+    border: 1px dashed #000;
+    height: 40px;
+    flex: 1;
+  }
+
+  .action {
+    flex: 1;
+    border: 1px dashed #000;
+    height: 200px;
+  }
+
+  .action:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  .footer {
+    flex: 1;
+    border: 1px dashed #000;
+    height: 200px;
+  }
+
+  .row:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+}
