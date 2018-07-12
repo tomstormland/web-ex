@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.fluid-active-state {
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  padding-bottom: 12px;
+  padding: 10px 20px;
+  .line {
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    margin: 10px 0 0 0;
+    background: #FF1847;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+  }
+  li {
+    margin: 0 40px 0 0;
+    opacity: 0.4;
+    transition: all 0.4s ease;
+    &:hover {
+      opacity: 0.7;
+    }
+    &.active {
+      opacity: 1;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    font-size: 14px;
+  }
+}
