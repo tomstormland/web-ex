@@ -1,0 +1,1 @@
+$('#paper').load('paper.html');
