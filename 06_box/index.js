@@ -1,0 +1,1 @@
+$('#box').load('box.html');
