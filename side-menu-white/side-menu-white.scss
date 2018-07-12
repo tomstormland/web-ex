@@ -55,18 +55,18 @@
     border-radius: 4px;
     padding: 1em 1.52em;
     &:hover {
-      background: linear-gradient(to right, #9fcedf, 2px, #fff 2px);
+      background: linear-gradient(to right, #9fcedf 2px, #fff 2px);
     }
   }
   .sub-menu {
     a {
       font-size: 0.9em;
       color: #666;
-      border-left: 2em solid white;
+      border-left: 30px solid transparent;
       paddin: 0.75em;
-      background: linear-gradient(to right, lighten(#9fcedf, 15px), lighten(#9fcedf, 20px));
+      background: linear-gradient(to right, lighten(#9fcedf, 15px) 2px, lighten(#9fcedf, 23px) 2px);
       &:hover {
-        background: linear-gradient(to right, #9fcedf, 2px, #fff 2px);
+        background: linear-gradient(to right, #9fcedf 2px, #fff 2px);
       }
     }
   }

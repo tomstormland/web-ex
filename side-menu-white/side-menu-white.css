@@ -44,12 +44,12 @@
     border-radius: 4px;
     padding: 1em 1.52em; }
     .side-menu-white a:hover {
-      background: linear-gradient(to right, #9fcedf, 2px, #fff 2px); }
+      background: linear-gradient(to right, #9fcedf 2px, #fff 2px); }
   .side-menu-white .sub-menu a {
     font-size: 0.9em;
     color: #666;
-    border-left: 2em solid white;
+    border-left: 30px solid transparent;
     paddin: 0.75em;
-    background: linear-gradient(to right, #d8ebf2, #ecf5f9); }
+    background: linear-gradient(to right, #d8ebf2 2px, #f7fbfc 2px); }
     .side-menu-white .sub-menu a:hover {
-      background: linear-gradient(to right, #9fcedf, 2px, #fff 2px); }
+      background: linear-gradient(to right, #9fcedf 2px, #fff 2px); }
