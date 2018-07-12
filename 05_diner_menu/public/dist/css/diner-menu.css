@@ -1,0 +1,24 @@
+.diner-menu {
+  width: 800px;
+  margin: 100px auto;
+  table-layout: fixed;
+  border-collapse: collapse; }
+  .diner-menu td {
+    padding: 1em 0 0 0;
+    vertical-align: bottom;
+    background-image: radial-gradient(black 1px, white 0px);
+    background-size: 8px 8px;
+    background-repeat: repeat-x;
+    background-position: left bottom; }
+  .diner-menu td span {
+    background-color: #FFF; }
+  .diner-menu td:first-child {
+    text-align: left;
+    font-weight: 700; }
+  .diner-menu td:first-child span {
+    padding-right: 6px; }
+  .diner-menu td:last-child {
+    text-align: right;
+    width: 100px; }
+  .diner-menu td:last-child span {
+    padding-left: 6px; }
