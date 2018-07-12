@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+.highlight-animation {
+  font-family: 'Source Code Pro', sans-serif;
+  color: #000;
+  font-size: 14px;
+  line-height: 1.2;
+  text-decoration: none;
+  background-image: linear-gradient(to right, yellow 0, yellow 100%);
+  background-position: 0 -0.1em;
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: background 0.5s; }
+  .highlight-animation:hover {
+    background-size: 100% 100%; }
